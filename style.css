@@ -2,6 +2,10 @@
     font-family: Pe-icon-7-stroke;
     src: url(assets/fonts/Pe-icon-7-strokebb1d.ttf);
 }
+@font-face {
+    font-family: FontAwesome;
+    src: url(assets/fonts/fontawesome-webfont3e6e.ttf);
+}
 *{
     margin: 0;
     padding: 0;
