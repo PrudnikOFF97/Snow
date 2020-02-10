@@ -80,6 +80,7 @@ body{
     letter-spacing: 0.04em;
     vertical-align: middle;
     text-transform: uppercase;
+    text-decoration: none;
     cursor: pointer;
     transition: 0.2s;
 }
