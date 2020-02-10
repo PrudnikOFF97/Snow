@@ -22,7 +22,6 @@ body{
 .header{
     justify-self: center;
     position: fixed;
-    top: 0;
     text-align: justify;
     letter-spacing: 1px;
     height: 35px;
@@ -30,8 +29,25 @@ body{
     padding: 33px 9%;
     background-color: transparent;
     color: #fff;
-    
+    transition: 0.2s;
+    z-index: 1000;
 }
+.header-scroll{
+    background-color: #fff;
+}
+.header-scroll > .header__logo-light{
+    display: none;
+}
+.header-scroll > .header__logo-solid{
+    display: inline-block;
+}
+.header-scroll .nav__link{
+    color: rgb(95, 95, 95);
+}
+.header-scroll .nav__link:hover{
+    color: #0e0e0e;
+}
+
 .header::after {
     content: '';
     display: inline-block;
@@ -47,6 +63,9 @@ body{
     display: inline-block;
     height: 100%;
     width: 85px;
+}
+.header__logo-solid{
+    display: none;
 }
 .nav__link{
     font-size: 0.96rem;
