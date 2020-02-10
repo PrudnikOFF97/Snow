@@ -82,7 +82,6 @@ body{
     vertical-align: middle;
     text-transform: uppercase;
     text-decoration: none;
-    cursor: pointer;
     transition: 0.2s;
 }
 .nav__link:hover{
@@ -107,7 +106,7 @@ body{
 }
 .intro__header,
 .intro__title,
-a{
+.intro__button_container{
     grid-column: 2;
 }
 .intro__header{
@@ -142,6 +141,7 @@ a{
     text-transform: uppercase;
     color: #fff;
     border: none;
+    cursor: pointer;
     font-family: Work Sans;
     font-size: .96rem;
     font-weight: 500;
