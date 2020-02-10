@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Pe-icon-7-stroke;
+    src: url(assets/fonts/Pe-icon-7-strokebb1d.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -165,9 +169,27 @@ a{
     padding: 0 15px;
     margin: 5px 0;
 }
-.achievements__item > img{
+.achievements__item > span{
     width: 50px;
     height: 50px;
+    font-family: Pe-icon-7-stroke;
+    color: #fff;
+    line-height: 1;
+}
+.achievements__item > span::before{
+    font-size: 3.3rem;
+}
+.achievements__item-projects > span::before{
+    content: "\e622";
+}
+.achievements__item-hours > span::before{
+    content: "\e66b";
+}
+.achievements__item-feedbacks > span::before{
+    content: "\e611";
+}
+.achievements__item-clients > span::before{
+    content: "\e642";
 }
 .text_content{
     color: #fff;
