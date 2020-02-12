@@ -37,13 +37,16 @@ body{
     transition: 0.2s;
     z-index: 1000;
 }
+.header__logo_link{
+    text-decoration: none;
+}
 .header-scroll{
     background-color: #fff;
 }
-.header-scroll > .header__logo-light{
+.header-scroll  .header__logo-light{
     display: none;
 }
-.header-scroll > .header__logo-solid{
+.header-scroll  .header__logo-solid{
     display: inline-block;
 }
 .header-scroll .nav__link{
@@ -336,6 +339,13 @@ footer{
 .footer__text{
     margin-bottom: 24px;
 }
+.burger .social_media{
+    padding: 51px 20px;
+}
+.burger .social_media__item__link{
+    color: #fff;
+}
+
 @media only screen and (min-width: 992px) {
     .burger{
         display: none;
@@ -357,12 +367,6 @@ footer{
     .portfolio__item__image:hover > .portfolio__item__overlay > h2{
         padding-top: 120px;
     }    
-}
-.burger .social_media{
-    padding: 51px 20px;
-}
-.burger .social_media__item__link{
-    color: #fff;
 }
 @media only screen and (max-width: 991px) {
     .burger{
