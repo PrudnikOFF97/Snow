@@ -287,7 +287,55 @@ body{
 .portfolio__item__image-pbag{
     background-image: url(assets/images/portfolio-12-sm.jpg);
 }
-
+footer{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    background-color: #ebebeb;
+    color: #5f5f5f;
+}
+.footer__container{
+    grid-column: 2;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 25px; 
+}
+.social_media{
+    list-style: none;
+    padding-bottom: 12px;
+}
+.social_media__item{
+    display: inline;
+}
+.social_media__item__link{
+    padding: 3px 6px;
+    text-decoration: none;
+    color: #5f5f5f;
+    opacity: 0.4;
+}
+.social_media__item__link:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.social_media__item  span::before{
+    font-family: FontAwesome;
+    font-size: 1.13rem;
+    content: "\f099";
+}
+.social_media__item-twitter  span::before{
+    content: "\f099";
+}
+.social_media__item-facebook  span::before{
+    content: "\f09a";
+}
+.social_media__item-dribbble  span::before{
+    content: "\f17d";
+}
+.social_media__item-instagram  span::before{
+    content: "\f16d";
+}
+.footer__text{
+    margin-bottom: 24px;
+}
 @media only screen and (min-width: 992px) {
     .burger{
         display: none;
@@ -309,6 +357,12 @@ body{
     .portfolio__item__image:hover > .portfolio__item__overlay > h2{
         padding-top: 120px;
     }    
+}
+.burger .social_media{
+    padding: 51px 20px;
+}
+.burger .social_media__item__link{
+    color: #fff;
 }
 @media only screen and (max-width: 991px) {
     .burger{
@@ -376,6 +430,8 @@ body{
         width: 100vw;
         height: 100vh;
 
+        text-align: center;
+
         cursor: default;
         background-image: url(assets/images/bg-menu.jpg);
         background-position: 50% 50%;
@@ -438,10 +494,4 @@ body{
     .portfolio__item__image:hover > .portfolio__item__overlay > h2{
         padding-top: 40%;
     }    
-}
-@media (min-width: 870px){
-    
-}
-@media (max-width: 869px){
-
 }
