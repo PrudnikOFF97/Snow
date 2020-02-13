@@ -1,6 +1,8 @@
 window.addEventListener("DOMContentLoaded", function(){
     const burger = document.getElementsByClassName('burger')[0];
     const header = document.getElementsByClassName("header")[0];
+    const burgerIcon = document.getElementsByClassName("burger__icon")[0];
+
     window.addEventListener('scroll', function() {
         //console.log(pageYOffset + 'px');
         if (pageYOffset > 50){
@@ -12,5 +14,6 @@ window.addEventListener("DOMContentLoaded", function(){
     });
     burger.addEventListener("click",  function() {
         burger.classList.toggle("burger-active");
+        burgerIcon.classList.toggle("burger__icon-play_animation");
     });
 });
