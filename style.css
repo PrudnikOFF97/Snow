@@ -95,7 +95,8 @@ body{
     padding-right: 0;
 }
 .intro{
-    height: 125.5vh;
+    height: 110.7vh;
+    min-height: 800px;
     background-image: url(assets/images/home-7.jpg);
     background-size: cover; 
     background-position: 50% 50%;
@@ -121,7 +122,8 @@ body{
     
     text-transform: uppercase;
     font-weight: 700;
-    padding-top: 60px;
+    padding-top: 157px;
+    margin-bottom: 16px;
 }
 .intro__title{
     color: #fff;
@@ -137,6 +139,7 @@ body{
 .btn-download{
     grid-row: 3;
     margin-top: 50px;
+    margin-right: 10px;
     padding: 18px 25px;
     width: 200px;
     background-color: #252525;
