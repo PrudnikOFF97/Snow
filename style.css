@@ -255,7 +255,7 @@ body{
     margin-left: 22px;
 }
 .portfolio{
-    padding-bottom: 25px;
+    padding-bottom: 90px;
 }
 .portfolio__container{
     grid-column: 2;
@@ -319,6 +319,16 @@ body{
 }
 .portfolio__item__image-pbag{
     background-image: url(assets/images/portfolio-12-sm.jpg);
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+
+}
+.contact__container{
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 445px auto;
 }
 footer{
     display: grid;
@@ -390,8 +400,8 @@ footer{
         grid-row: 2;
     }
     .portfolio__container{
-        grid-template-columns: repeat(3, 310px);
-        grid-template-rows: repeat(3, 310px);
+        grid-template-columns: repeat(3, 27vw);
+        grid-template-rows: repeat(3, 27vw);
         color: #fff;
     }
     .portfolio__item__image:hover > .portfolio__item__overlay > h2{
@@ -537,8 +547,8 @@ footer{
         grid-template-rows: repeat(2, 1fr);
     }
     .portfolio__container{
-        grid-template-columns: repeat(2, 310px);
-        grid-template-rows: repeat(5, 310px);
+        grid-template-columns: repeat(2, 42vw);
+        grid-template-rows: repeat(5, 42vw);
     }
     .portfolio__item__image:hover > .portfolio__item__overlay > h2{
         padding-top: 120px;
@@ -553,8 +563,8 @@ footer{
         grid-template-rows: repeat(4, 1fr);
     }
     .portfolio__container{
-        grid-template-columns: 80vw;
-        grid-template-rows: repeat(9, 80vw);
+        grid-template-columns: 83vw;
+        grid-template-rows: repeat(9, 83vw);
     }
     .portfolio__item__overlay > h2{
         padding-top: 45%;
