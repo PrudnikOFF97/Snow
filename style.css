@@ -16,6 +16,10 @@ html{
     line-height: 1.15;
     scroll-behavior: smooth;
 }
+::selection{
+    color: #fff;
+    background-color: #444;
+}
 body{
     letter-spacing: 0.004em;
     font-size: 1rem;
