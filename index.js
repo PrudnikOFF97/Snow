@@ -17,5 +17,8 @@ window.addEventListener("DOMContentLoaded", function(){
     });
     window.addEventListener("load", () => {
         preloader.classList.add("loaded");
+        setTimeout(() =>{
+            preloader.style = "display: none;"
+        },1500);
     })
 });
