@@ -46,7 +46,7 @@ html{
     align-content: center;
     overflow: hidden;
     z-index: 1001;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 @keyframes rot{
     0%{
